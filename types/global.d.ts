@@ -220,7 +220,7 @@ declare global {
         id: string;
         email: string;
         name: string;
-        country: string;
+        country?: string;
         investmentGoals?: string;
         riskTolerance?: string;
         preferredIndustry?: string;
